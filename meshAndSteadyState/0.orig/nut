@@ -85,38 +85,38 @@ boundaryField
 		
     DPE_FW
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 		
     DPE_Telaio
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 		
     DPE_RW
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 		
     DPE_MW
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 		
     DPE_Diffusore
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 		
 
     DPE_FWheels
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 		
@@ -124,7 +124,7 @@ boundaryField
 		
     DPE_RWheels
 		{
-        type            calculated;
+        type            nutkWallFunction;
         value           uniform 0;  
 		}
 }
